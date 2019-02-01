@@ -5,3 +5,5 @@ bubbleRobServer
 bubbleRobServer.exe
 Makefile.Debug
 Makefile.Release
+debug/
+release/
