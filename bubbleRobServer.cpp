@@ -41,13 +41,13 @@ int main(int argc, char* argv[])
                 // If we didn't detect anything, we drive forward:
                 if (simulationTime-driveBackStartTime<3.0f)
                 { // driving backwards while slightly turning:
-                    motorSpeeds[0]=-pi*0.5f;
-                    motorSpeeds[1]=-pi*0.25f;
+                    motorSpeeds[0]=-7.0f*0.5f;
+                    motorSpeeds[1]=-7.0f*0.25f;
                 }
                 else
                 { // going forward:
-                    motorSpeeds[0]=pi;
-                    motorSpeeds[1]=pi;
+                    motorSpeeds[0]=7.0f;
+                    motorSpeeds[1]=7.0f;
                     if (sensorReading>0.0f)
                         driveBackStartTime=simulationTime; // We detected something, and start the backward mode
                 }
