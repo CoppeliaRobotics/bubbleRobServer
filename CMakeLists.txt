@@ -18,7 +18,7 @@ find_package(CoppeliaSim 4.5.1.7 REQUIRED)
 
 coppeliasim_add_executable(bubbleRobServer
     SOURCES
-    bubbleRobServer.cpp
+    sourceCode/bubbleRobServer.cpp
     ${COPPELIASIM_INCLUDE_DIR}/simLib/socketInConnection.cpp
 )
 target_include_directories(bubbleRobServer PRIVATE ${COPPELIASIM_INCLUDE_DIR})

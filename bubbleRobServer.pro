@@ -60,7 +60,7 @@ HEADERS += \
 
 SOURCES += \
     ../include/simLib/socketInConnection.cpp \
-    bubbleRobServer.cpp
+    sourceCode/bubbleRobServer.cpp
 
 
 
